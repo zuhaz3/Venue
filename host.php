@@ -2,7 +2,7 @@
 	/*
     *********************************************************************************
     * 
-    * File: display.php   | For retrieving and displaying data from the DB.
+    * File: display.php now as host.php | For retrieving and displaying data from the DB.
     * 
     * 
     * Created by Jason Lengstorf for Ennui Design. Copyright (C) 2008 Ennui Design.
@@ -149,7 +149,6 @@
 
 	      require_once('config.php');
 
-		  /* CHANGE THESE SETTINGS FOR YOUR OWN DATABASE */
 	      $obj->host = DB_HOST;
 	      $obj->username = DB_USER;
 	      $obj->password = DB_PASSWORD;
