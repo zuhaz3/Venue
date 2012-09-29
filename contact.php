@@ -45,7 +45,7 @@
        if ($errflag == false)
        {
          // set here
-         $to = 'zuhaz3@gmail.com';
+         $to = 'youremail@domain.com';
 
          $body = <<<HTML
 $body
