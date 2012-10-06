@@ -27,16 +27,16 @@ ENTRY_DISPLAY;
         $entry_display .= <<<ENTRY_DISPLAY
 
       
-      <h5 style="margin-right: 500px;"> $name <br /></h5>
-      <p style="margin-right: 500px;">
+      <h5 style=""> $name <br /></h5>
+      <p style="">
         $location
         <br />
         $contact
       </p>
-      <p style="margin-right: 500px;">$$price.00</p>
-      <p style="margin-right: 500px;">$info</p>
-      <p style="margin-right: 500px;">More information at <a href="$link" target="_blank">$link</a></p>
-      <p style="margin-right: 500px;">Available: $avail</p>
+      <p style="">$$price.00</p>
+      <p style="">$info</p>
+      <p style="">More information at <a href="$link" target="_blank">$link</a></p>
+      <p style="">Available: $avail</p>
       <br />
         <form action="http://maps.google.com/maps" method="get" target="_blank">
            <label for="saddr">Enter your location to get directions</label>
